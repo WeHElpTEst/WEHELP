@@ -201,7 +201,7 @@
           "Extensive library of non-fiction and reality content.",
           "Affordable subscription plans with a variety of genres."
         ],
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Discovery%2B_logo.svg",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/6/64/Disney%2B_2024.svg",
         "title": "Discovery+",
         "description": "Discovery+ is a streaming service offering a vast library of non-fiction and reality shows from networks like Discovery Channel, HGTV, Food Network, and more.",
         "faqs": [
@@ -238,6 +238,94 @@
             "answer": "No, ESPN+ is a separate subscription service and is not included with standard cable packages."
           }
         ]
-      }
+      },
+        {
+          "id": 11,
+          "name": "Peacock TV, LLC",
+          "address": "30 Rockefeller Plaza, New York, NY",
+          "phone": "Not publicly listed",
+          "rating": 4.2,
+          "reviews": [
+            "Diverse content library with a mix of classic and new shows.",
+            "User-friendly interface and affordable subscription plans."
+          ],
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/d/d3/NBCUniversal_Peacock_Logo.svg",
+          "title": "NBCUniversal's Streaming Service",
+          "description": "Peacock is an American over-the-top subscription streaming service owned and operated by Comcast through its entertainment division NBCUniversal. Launched on July 15, 2020, it features content from NBCUniversal brands and other third-party providers, including television series, films, news, and sports programming.",
+          "faqs": [
+            {
+              "question": "What content is available on Peacock?",
+              "answer": "Peacock offers a wide range of content, including TV shows, movies, news, and sports from NBCUniversal and other partners."
+            },
+            {
+              "question": "Is there a free tier available?",
+              "answer": "As of January 2023, the free tier is no longer available to new customers."
+            },
+            {
+              "question": "How can I contact Peacock TV by phone?",
+              "answer": "Peacock TV doesn’t provide a public phone number. Use their Help Center for support."
+            },
+            {
+              "question": " Does Peacock TV have a customer service phone number?",
+              "answer": "No direct phone support. Use live chat or email via their Help Center."
+            },
+            {
+              "question": "How do I talk to a live agent?",
+              "answer": "Visit the Peacock Help Center and use live chat or Twitter support (@PeacockTVCare)."
+            },
+            {
+              "question": "What if I can’t find a Peacock TV phone number?",
+              "answer": "Try live chat, email support, or social media (@PeacockTVCare on Twitter)."
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "name": "Paramount Global",
+          "address": "One Astor Plaza, New York, NY 10036",
+          "phone": "(212) 975-4321",
+          "rating": 4.5,
+          "reviews": [
+            "Extensive portfolio of entertainment brands and assets.",
+            "Strong presence in both traditional media and streaming platforms."
+          ],
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/8/89/Paramount_Pictures_2022_%28Blue%29.svg",
+          "title": "Leading Global Media and Entertainment Company",
+          "description": "Paramount Global is an American multinational mass media and entertainment conglomerate. Formed through the merger of CBS Corporation and Viacom, it owns a diverse range of assets, including Paramount Pictures, CBS Entertainment Group, and various cable networks.",
+          "faqs": [
+            {
+              "question": "What are some of Paramount Global's key assets?",
+              "answer": "Key assets include Paramount Pictures, CBS, MTV, Nickelodeon, and streaming services like Paramount+."
+            },
+            {
+              "question": "Where is Paramount Global headquartered?",
+              "answer": "The company is headquartered at One Astor Plaza in New York City."
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "name": "Hulu, LLC",
+          "address": "500 Flower Street, Los Angeles, CA 90071",
+          "phone": "Not publicly listed",
+          "rating": 4.4,
+          "reviews": [
+            "Offers a vast selection of current and classic TV shows and movies.",
+            "Seamless streaming experience with customizable subscription options."
+          ],
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Hulu_logo_%282018%29.svg",
+          "title": "Premium Streaming Service",
+          "description": "Hulu is an American subscription streaming service majority-owned by The Walt Disney Company. It offers a library of films and television series from networks such as ABC, NBC, and FX, as well as Hulu original content.",
+          "faqs": [
+            {
+              "question": "What types of content are available on Hulu?",
+              "answer": "Hulu provides access to a wide range of TV shows, movies, and original programming."
+            },
+            {
+              "question": "Does Hulu offer live TV options?",
+              "answer": "Yes, Hulu offers a Live TV plan that includes live and on-demand channels."
+            }
+          ]
+        }      
   ]
   

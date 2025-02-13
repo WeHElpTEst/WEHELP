@@ -3,52 +3,85 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Business Details - WE HELP</title>
+  <title>Business Details - We Help</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1 id="business-name">Business Details</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        
-        <li><a href="terms-and-conditions.html">Terms and Conditions</a></li>
-        <li><a href="privacy-policy.html">Privacy Policy</a></li>
-        <li><a href="contact-us.html">Contact Us</a></li>
-        <li><a href="about-us.html">About Us</a></li>
-        <li><a href="disclaimer.html">Disclaimer</a></li>
-      </ul>
+  <header class="bg-danger text-white text-center py-3">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">We Help</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="business.html">Business</a></li>
+            <li class="nav-item"><a class="nav-link" href="terms-and-conditions.html">Terms</a></li>
+            <li class="nav-item"><a class="nav-link" href="privacy-policy.html">Privacy</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact-us.html">Contact</a></li>
+            <li class="nav-item"><a class="nav-link" href="about-us.html">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="disclaimer.html">Disclaimer</a></li>
+          </ul>
+        </div>
+      </div>
     </nav>
   </header>
 
-  <main>
+  <main class="container my-4">
     <!-- Contact Section -->
-    <center><section id="contact-section" class="animated-section">
+    <section id="contact-section" class="mb-4 text-center">
       <h2>Contact <span id="contact-business-name"></span></h2>
       <p><strong>Phone:</strong> <span id="contact-phone" class="phone-number"></span></p>
-      <button id="call-button">Call Now</button>
-    </section></center>
-
+      <button id="call-button" class="btn btn-danger">Call Now</button>
+    </section>
+    <hr>
     <!-- Business Details Section -->
-    <section id="business-details" class="animated-section">
-      <div id="business-logo"></div>
-      <p id="business-title"></p>
-      <p id="business-description"></p>
-      <p><strong>Address:</strong> <span id="business-address"></span></p>
-      <p><strong>Rating:</strong> <span id="business-rating"></span> / 5</p>
-      <h3>Reviews</h3>
-      <ul id="business-reviews"></ul>
-      <h3>FAQs</h3>
-      <div id="business-faqs"></div>
+    <section id="business-details">
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div id="business-logo" class="text-center">
+            <img src="" alt="Business Logo" class="img-fluid rounded">
+          </div>
+        </div>
+        <div class="col-md-8">
+          <h1 id="business-name" class="mb-3"></h1>
+          <p id="business-title" class="lead"></p>
+          <p id="business-description"></p>
+          <p><strong>Address:</strong> <span id="business-address"></span></p>
+          <p><strong>Rating:</strong> <span id="business-rating"></span> / 5</p>
+        </div>
+      </div>
+
+      <!-- Reviews Section -->
+      <div class="mt-4">
+        <h3>Reviews</h3>
+        <ul id="business-reviews" class="list-group">
+          <!-- Reviews will be dynamically added here -->
+        </ul>
+      </div>
+
+      <!-- FAQs Section -->
+      <div class="mt-4">
+        <h3>FAQs</h3>
+        <div id="business-faqs" class="accordion">
+          <!-- FAQs will be dynamically added here -->
+        </div>
+      </div>
     </section>
   </main>
 
- <footer>
-  <p>&copy; 2023 Yelp Clone. All rights reserved.</p>
-  <p><strong>Disclaimer:</strong> All data provided on this website is scraped from Google. We are not responsible for the accuracy of the data displayed on the business pages.</p>
-</footer>
+  <footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2023 We Help. All rights reserved.</p>
+    <p><strong>Disclaimer:</strong> All data provided on this website is scraped from Google. We are not responsible for the accuracy of the data displayed on the business pages.</p>
+  </footer>
 
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
   <script src="script.js"></script>
 </body>
 </html>

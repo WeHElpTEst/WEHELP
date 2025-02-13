@@ -3,26 +3,36 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Disclaimer - Yelp Clone</title>
+  <title>Business Details - We Help</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>Yelp Clone</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="terms-and-conditions.html">Terms and Conditions</a></li>
-        <li><a href="privacy-policy.html">Privacy Policy</a></li>
-        <li><a href="contact-us.html">Contact Us</a></li>
-        <li><a href="about-us.html">About Us</a></li>
-        <li><a href="disclaimer.html">Disclaimer</a></li>
-      </ul>
+  <header class="bg-danger text-white text-center py-3">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">We Help</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="business.html">Business</a></li>
+            <li class="nav-item"><a class="nav-link" href="terms-and-conditions.html">Terms</a></li>
+            <li class="nav-item"><a class="nav-link" href="privacy-policy.html">Privacy</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact-us.html">Contact</a></li>
+            <li class="nav-item"><a class="nav-link" href="about-us.html">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="disclaimer.html">Disclaimer</a></li>
+          </ul>
+        </div>
+      </div>
     </nav>
   </header>
-
-  <main>
-    <section class="content animated-section">
+  <main class="container my-4">
+    <!-- Contact Section -->
+    <section class="mb-4 text-center content animated-section">
       <h2>Disclaimer</h2>
       <p><strong>Data Source:</strong> All data provided on this website is scraped from Google. We do not claim ownership or accuracy of the data.</p>
 
@@ -37,9 +47,14 @@
     </section>
   </main>
 
-  <footer>
-    <p>&copy; 2023 Yelp Clone. All rights reserved.</p>
+  <footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2023 We Help. All rights reserved.</p>
     <p><strong>Disclaimer:</strong> All data provided on this website is scraped from Google. We are not responsible for the accuracy of the data displayed on the business pages.</p>
   </footer>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
