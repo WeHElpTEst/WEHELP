@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WE HELP</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <header>
+    <h1>WE HELP</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        
+        <li><a href="terms-and-conditions.html">Terms and Conditions</a></li>
+        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+        <li><a href="contact-us.html">Contact Us</a></li>
+        <li><a href="about-us.html">About Us</a></li>
+        <li><a href="disclaimer.html">Disclaimer</a></li>
+      </ul>
+    </nav>
+    <div class="search-bar">
+      <input type="text" id="search-input" placeholder="Search for businesses...">
+      <button id="search-button">Search</button>
+    </div>
+  </header>
+
+  <main>
+    <section id="business-list" class="business-list">
+        <!-- Business items will be dynamically added here -->
+    </section>
+
+    <!-- Pagination Controls -->
+    <center><div id="pagination-controls">
+        <button id="prev-page">Previous</button>
+        <span id="page-info"></span>
+        <button id="next-page">Next</button>
+    </div></center>
+</main>
+
+ <footer>
+  <p>&copy; 2023 Yelp Clone. All rights reserved.</p>
+  <p><strong>Disclaimer:</strong> All data provided on this website is scraped from Google. We are not responsible for the accuracy of the data displayed on the business pages.</p>
+</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

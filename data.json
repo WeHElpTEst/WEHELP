@@ -1,0 +1,243 @@
+[
+    {
+      "id": 1,
+      "name": "Netflix, Inc.",
+      "address": "100 Winchester Circle, Los Gatos, CA 95032",
+      "phone": "(408) 540-3700",
+      "rating": 4.8,
+      "reviews": [
+        "Innovative streaming platform with a vast content library.",
+        "Pioneers in original content production."
+      ],
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg",
+      "title": "Leading Subscription-Based Streaming Service",
+      "description": "Netflix is a global streaming service offering a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.",
+      "faqs": [
+        {
+          "question": "What is Netflix?",
+          "answer": "Netflix is a streaming service that offers a wide variety of TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices."
+        },
+        {
+          "question": "How much does Netflix cost?",
+          "answer": "Netflix offers several membership plans to suit your needs. The cost varies depending on the plan you choose."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Apple Inc.",
+      "address": "One Apple Park Way, Cupertino, CA 95014",
+      "phone": "(408) 996-1010",
+      "rating": 4.9,
+      "reviews": [
+        "Leading technology company known for iPhone and Mac.",
+        "Exceptional design and user experience."
+      ],
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg",
+      "title": "Innovative Technology Company",
+      "description": "Apple designs, manufactures, and markets smartphones, personal computers, tablets, wearables, and accessories worldwide. It is known for products like the iPhone, iPad, and Mac computers.",
+      "faqs": [
+        {
+          "question": "What products does Apple offer?",
+          "answer": "Apple offers a range of products including iPhone, iPad, Mac computers, Apple Watch, and services like the App Store and iCloud."
+        },
+        {
+          "question": "Where can I purchase Apple products?",
+          "answer": "Apple products can be purchased through Apple's official website, Apple Retail Stores, and authorized resellers."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Microsoft Corporation",
+      "address": "One Microsoft Way, Redmond, WA 98052",
+      "phone": "(425) 882-8080",
+      "rating": 4.7,
+      "reviews": [
+        "Dominant software provider with a strong cloud platform.",
+        "Continuous innovation in technology solutions."
+      ],
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg",
+      "title": "Global Leader in Software and Cloud Services",
+      "description": "Microsoft develops, licenses, and supports a range of software products, services, and devices. It is known for the Windows operating system, Microsoft Office suite, and Azure cloud computing platform.",
+      "faqs": [
+        {
+          "question": "What is Microsoft 365?",
+          "answer": "Microsoft 365 is a subscription service that provides access to Office applications and other productivity services over the internet."
+        },
+        {
+          "question": "What is Azure?",
+          "answer": "Azure is Microsoft's cloud computing platform offering a wide range of services including computing, analytics, storage, and networking."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Amazon.com, Inc.",
+      "address": "410 Terry Avenue North, Seattle, WA 98109",
+      "phone": "(206) 266-1000",
+      "rating": 4.8,
+      "reviews": [
+        "E-commerce giant with extensive product offerings.",
+        "Exceptional customer service and fast delivery."
+      ],
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg",
+      "title": "Leading E-commerce and Cloud Computing Company",
+      "description": "Amazon is a multinational technology company focusing on e-commerce, cloud computing, digital streaming, and artificial intelligence. It is known for its extensive online marketplace and Amazon Web Services (AWS).",
+      "faqs": [
+        {
+          "question": "What services does Amazon offer?",
+          "answer": "Amazon offers a wide range of services including online retail, Amazon Prime, AWS, and more."
+        },
+        {
+          "question": "How can I track my Amazon order?",
+          "answer": "You can track your Amazon order by logging into your account and navigating to 'Your Orders' to view the status."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "The Coca-Cola Company",
+      "address": "One Coca-Cola Plaza, Atlanta, GA 30313",
+      "phone": "(404) 676-2121",
+      "rating": 4.6,
+      "reviews": [
+        "Iconic beverage company with a global presence.",
+        "Diverse product portfolio and strong brand recognition."
+      ],
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Coca-Cola_logo.svg/1920px-Coca-Cola_logo.svg.png",
+      "title": "World's Leading Beverage Company",
+      "description": "The Coca-Cola Company is a total beverage company, offering over 500 brands in more than 200 countries. Its portfolio includes sparkling soft drinks and a wide range of still beverages.",
+      "faqs": [
+        {
+          "question": "What products does The Coca-Cola Company offer?",
+          "answer": "The company offers a wide range of beverages including soft drinks, water, sports drinks, and juices."
+        },
+        {
+          "question": "Where is The Coca-Cola Company headquartered?",
+          "answer": "The Coca-Cola Company is headquartered in Atlanta, Georgia."
+        }
+      ]
+    },
+    {
+        "id": 6,
+        "name": "Disney+",
+        "address": "500 S Buena Vista St, Burbank, CA 91521",
+        "phone": "(888) 905-7888",
+        "rating": 4.8,
+        "reviews": [
+          "A vast library of Disney classics and new originals.",
+          "Family-friendly content with excellent streaming quality."
+        ],
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/6/61/Discovery_Plus_logo.svg",
+        "title": "Disney+",
+        "description": "Disney+ offers a vast library of movies and TV shows from Disney, Pixar, Marvel, Star Wars, and National Geographic, along with exclusive original content.",
+        "faqs": [
+          {
+            "question": "What content is available on Disney+?",
+            "answer": "Disney+ provides access to a vast library of movies and TV shows from Disney, Pixar, Marvel, Star Wars, and National Geographic, along with exclusive original content."
+          },
+          {
+            "question": "How much does a Disney+ subscription cost?",
+            "answer": "As of 2025, Disney+ offers various subscription plans, including monthly and annual options. Prices may vary, so it's best to check their official website for the most current rates."
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "name": "HBO Max",
+        "address": "30 Hudson Yards, New York, NY 10001",
+        "phone": "(212) 512-1000",
+        "rating": 4.7,
+        "reviews": [
+          "Premium content with a mix of new releases and classics.",
+          "User-friendly interface and high-quality streaming."
+        ],
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/1/17/HBO_Max_Logo.svg",
+        "title": "HBO Max",
+        "description": "HBO Max combines all of HBO with even more must-see TV series, blockbuster movies, and exclusive Max Originals.",
+        "faqs": [
+          {
+            "question": "What distinguishes HBO Max from HBO?",
+            "answer": "HBO Max includes all the content available on HBO, plus additional movies, TV series, and Max Originals not found on the standard HBO service."
+          },
+          {
+            "question": "Is there a free trial for HBO Max?",
+            "answer": "As of 2025, HBO Max occasionally offers free trials. It's recommended to visit their official website for the latest promotional offers."
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "name": "Apple TV+",
+        "address": "One Apple Park Way, Cupertino, CA 95014",
+        "phone": "(408) 996-1010",
+        "rating": 4.5,
+        "reviews": [
+          "High-quality original programming.",
+          "Sleek interface with seamless integration across Apple devices."
+        ],
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/2/28/Apple_TV_Plus_Logo.svg",
+        "title": "Apple TV+",
+        "description": "Apple TV+ features original stories from the most creative minds in TV and film, offering a growing selection of award-winning series and movies.",
+        "faqs": [
+          {
+            "question": "What type of content does Apple TV+ offer?",
+            "answer": "Apple TV+ focuses on original content, including dramas, comedies, documentaries, and children's programming."
+          },
+          {
+            "question": "Is Apple TV+ included with other Apple services?",
+            "answer": "Apple offers bundles like Apple One, which include Apple TV+ along with other services like Apple Music and iCloud storage."
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "name": "Discovery+",
+        "address": "230 Park Ave S, New York, NY 10003",
+        "phone": "(212) 548-5555",
+        "rating": 4.4,
+        "reviews": [
+          "Extensive library of non-fiction and reality content.",
+          "Affordable subscription plans with a variety of genres."
+        ],
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Discovery%2B_logo.svg",
+        "title": "Discovery+",
+        "description": "Discovery+ is a streaming service offering a vast library of non-fiction and reality shows from networks like Discovery Channel, HGTV, Food Network, and more.",
+        "faqs": [
+          {
+            "question": "What networks are included in Discovery+?",
+            "answer": "Discovery+ includes content from Discovery Channel, HGTV, Food Network, TLC, Animal Planet, and more."
+          },
+          {
+            "question": "Does Discovery+ offer live TV?",
+            "answer": "Discovery+ primarily offers on-demand content, but some live events and specials may be available."
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "name": "ESPN+",
+        "address": "545 Middle Street, Bristol, CT 06010",
+        "phone": "(888) 549-3776",
+        "rating": 4.3,
+        "reviews": [
+          "Great for exclusive sports content and live events.",
+          "Affordable way to access out-of-market games."
+        ],
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/2/2f/ESPN_wordmark.svg",
+        "title": "ESPN+",
+        "description": "ESPN+ offers live sports events, original studio shows, and acclaimed series that aren't available on the ESPN networks.",
+        "faqs": [
+          {
+            "question": "What sports are available on ESPN+?",
+            "answer": "ESPN+ offers a variety of sports, including MLB, NHL, MLS, UFC, college sports, and more."
+          },
+          {
+            "question": "Is ESPN+ included with cable subscriptions?",
+            "answer": "No, ESPN+ is a separate subscription service and is not included with standard cable packages."
+          }
+        ]
+      }
+  ]
+  
