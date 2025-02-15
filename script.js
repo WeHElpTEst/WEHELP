@@ -109,7 +109,7 @@ async function displayBusinessDetails() {
 
     // Populate business details
     document.getElementById('business-name').textContent = business.name;
-    document.getElementById('business-logo').innerHTML = `<img src="${business.logo}" alt="${business.name}" class="img-fluid rounded">`;
+    // document.getElementById('business-logo').innerHTML = `<img src="${business.logo}" alt="${business.name}" class="img-fluid rounded">`;
     document.getElementById('business-title').textContent = business.title;
     document.getElementById('business-description').textContent = business.description;
     document.getElementById('business-address').textContent = business.address;
